@@ -2,9 +2,9 @@
 
 namespace Alekhin\WebsiteHelpers;
 
-if (!class_exists(__NAMESPACE__ . '\time_object')) {
+if (!class_exists(__NAMESPACE__ . '\TimeObject')) {
 
-    class time_object {
+    class TimeObject {
 
         const format_year = 'Y';
         const format_month = 'n';

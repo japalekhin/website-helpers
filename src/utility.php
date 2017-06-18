@@ -2,9 +2,9 @@
 
 namespace Alekhin\WebsiteHelpers;
 
-if (!class_exists(__NAMESPACE__ . '\utility')) {
+if (!class_exists(__NAMESPACE__ . '\Utility')) {
 
-    class utility {
+    class Utility {
 
         static private function s4() {
             return substr(dechex(intval((1 + (rand(0, 9999) / 10000)) * 65536)), 1);

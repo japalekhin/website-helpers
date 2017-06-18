@@ -2,9 +2,9 @@
 
 namespace Alekhin\WebsiteHelpers;
 
-if (!class_exists(__NAMESPACE__ . '\address')) {
+if (!class_exists(__NAMESPACE__ . '\Address')) {
 
-    class address {
+    class Address {
 
         var $scheme;
         var $host;

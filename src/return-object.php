@@ -2,9 +2,9 @@
 
 namespace Alekhin\WebsiteHelpers;
 
-if (!class_exists(__NAMESPACE__ . '\return_object')) {
+if (!class_exists(__NAMESPACE__ . '\ReturnObject')) {
 
-    class return_object {
+    class ReturnObject {
 
         var $success = FALSE;
         var $message = 'Unknown error!';
