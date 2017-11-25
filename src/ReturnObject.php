@@ -9,7 +9,7 @@ if (!class_exists(__NAMESPACE__ . '\ReturnObject')) {
         var $success = FALSE;
         var $message = 'Unknown error!';
         var $redirect = '';
-        var $data = null;
+        var $data = NULL;
 
         function __construct() {
             $this->data = new \stdClass();
