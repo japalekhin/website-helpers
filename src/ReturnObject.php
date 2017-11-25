@@ -13,7 +13,7 @@ if (!class_exists(__NAMESPACE__ . '\ReturnObject')) {
 
         function __construct() {
             $this->data = new \stdClass();
-            $this->redirect = filter_input(INPUT_SERVER, 'REQUEST_URI');
+            $this->redirect = $_SERVER['REQUEST_URI'];
         }
 
         function get_data($key) {
