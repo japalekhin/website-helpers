@@ -23,6 +23,11 @@ if (!class_exists(__NAMESPACE__ . '\ReturnObject')) {
             return $this;
         }
 
+        function set_success($success) {
+            $this->$success = $success === TRUE;
+            return $this;
+        }
+
         function get_data($key, $default = '') {
             if (isset($this->data->$key)) {
                 return $this->data->$key;
