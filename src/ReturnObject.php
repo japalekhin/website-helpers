@@ -24,7 +24,7 @@ if (!class_exists(__NAMESPACE__ . '\ReturnObject')) {
         }
 
         function set_success($success) {
-            $this->$success = $success === TRUE;
+            $this->success = $success === TRUE;
             return $this;
         }
 
